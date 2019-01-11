@@ -3,6 +3,21 @@ layout: default
 title: CadRacks
 ---
 <div class="blurb">
-	<h1>Hi there, this is CadRacks</h1>
-	<p>CadRacks aims at decentralizing collaborative CAD <em>A Touch of Evil</em> Wanna know more. <a href="/about">Read more about CadRacks...</a></p>
+	<h1>CadRacks Pages</h1>
+	<p>Welcome to Cadracks Pages, the home of the CadRacks project blog and documentation</p>
+	<p>CadRacks is an Open Source project which aim is to bring collaboration and decentralization to CAD users: innovators, engineers, designers ...
+	working together from anywhere, at any time, using any CAD software to create 3D computerized plans and specification</p>
+	<p>You can think of CadRacks as Github, but specifically tailored to CAD</p>
+	<p>Try it at <a href="http://cadracks.org">cadracks.org</a></p>
+	<p></p>
+	<h2>Latest blog posts</h2>
+	{% for post in site.categories.blog %}
+	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	{% endfor %}
+	<p></p>
+	<h2>Latest documentation</h2>
+	{% for post in site.categories.doc %}
+	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	{% endfor %}
+	<p></p>
 </div><!-- /.blurb -->
