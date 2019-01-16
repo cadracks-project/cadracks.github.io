@@ -36,8 +36,8 @@ Conclusion
 ----------
 
 Upon confirmation of your email, you become a CadRacks member. Now you can:
-- create repositories that will hold your own projects;
-- search and clone repositories you find interesting 
+- create repositories that will hold your own projects by following the ['Getting started with cadracks.org']({% post_url doc/2019-01-11-Getting_started %}) tutorial;
+- [search](http://www.cadracks.org/explore/repos) and clone repositories you find interesting 
 
 
 

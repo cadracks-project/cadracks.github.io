@@ -8,25 +8,16 @@ date: 2019-01-15
 v0.1
 ----
 
-- create your user account
-- create a repository
-- clone the project
-- add some files, commit theam and push to cadracks.org
-- view CAD files in the 3D viewer
-
-Limitations:
-
-- Limited set of 3D viewable files
-- No private repos
+see [cadracks.org, v0.1]({% post_url blog/2019-01-11-Cadracks_org_v0.1 %})
 
 v0.2
 ----
 
 - PythonOCC scripts display
-- Cadracks-Core Part scripts display
-- Cadracks-Core Stepzips display
+- CadRacks-Core Part scripts display
+- CadRacks-Core Stepzips display
 - Online CAD viewer improvements
-- Documentation
+- More documentation
 
 v0.3
 ----
@@ -35,22 +26,27 @@ v0.3
 - FreeCAD assembly3 files display
 - Diff tool
 - Extra info on stepzips and parts (PDM)
-- Ipynb, Dxf, Dwg, Svg files display
+- Ipynb, GCode, Dxf, Dwg, Svg files display
 
 
 v0.4
 ----
 
-- Cadracks IDE
+- Cadracks IDE (Integrated Development Environment)
 - Cadracks FreeCAD Workbench
 - Cadracks-core assembly display
 - Cadracks-core libraries integration
-- OSV model as example
+- Open Source Vehicle model as example
 - Helper libraries
 
 v1.0
 ----
 
 - Private repositories
+
+v1.1
+----
+
+- Simulations files display²
 
 
